@@ -15,9 +15,9 @@ const Cart = (props) => {
         <div >
 
             <div className="selected-cart">
-                <h3><small>Selected Member:{props.cart.length}</small></h3>
+                <h3><small>Selected Member: {props.cart.length}</small></h3>
                 <hr />
-                <h3><small>Total Donation:{total} BDT</small></h3>
+                <h3><small>Total Donation: {total} BDT</small></h3>
             </div>
             <div className="selected-name">
                 {
