@@ -8,7 +8,7 @@ import './Card.css'
 
 const Card = (props) => {
 
-    const cart = <FontAwesomeIcon icon={faShoppingCart} />
+
     const coin = <FontAwesomeIcon icon={faCoins} />
 
     const { name, img, phone, dept, designation, donate } = props.card
